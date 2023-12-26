@@ -1,3 +1,4 @@
+import { AppRouter } from './approuter/AppRouter';
 import { AppHeader } from './components/AppHeader';
 
 function App() {
@@ -6,8 +7,8 @@ function App() {
       <header >
       <AppHeader />
       </header>
-      <main>
-        main
+      <main className="main-container">
+        <AppRouter />
       </main>
       <footer>
         footer
