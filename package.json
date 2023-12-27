@@ -48,5 +48,8 @@
   "devDependencies": {
     "cypress": "^13.6.1",
     "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
