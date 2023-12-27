@@ -1,9 +1,7 @@
 import { AppRouter } from './approuter/AppRouter';
 import { AppHeader } from './components/AppHeader';
-import { useHelmet } from './hooks/UseHelmet';
 
 function App() {
-  useHelmet("Gym soft");
   return (
     <div >
       <header >

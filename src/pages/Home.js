@@ -1,7 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import { CardComponent } from "../components/CardComponent";
+import { useHelmet } from '../hooks/UseHelmet';
 
 export const Home = () => {
+    useHelmet("Home");
   const navigate = useNavigate();
   const onClickNavigate = (path) => navigate(path);
   return (

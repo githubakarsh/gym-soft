@@ -5,6 +5,6 @@ export const useHelmet = (
     title
 ) => {
     useEffect(() => {
-        return document.title = title;
+         document.title = title;
     }, []);
 };
